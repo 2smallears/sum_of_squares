@@ -1,7 +1,5 @@
 //Created by root on 16-7-21.
-'use static'
-
-//const test = require(main.js);
+'use strict';
 
 describe('sum of squares', () => {
    const inputs = [1,2,3,4,5];

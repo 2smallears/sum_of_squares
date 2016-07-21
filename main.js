@@ -1,11 +1,12 @@
 /**
  * Created by root on 16-7-21.
  */
+'use strict';
 function printSumOfSquares(inputs) {
     const oddElements = findOddElements(inputs);
     const squares = getSquares(oddElements);
     const sumOfSquares = getSumOfSquares(squares);
-    
+
     console.log(sumOfSquares);
 }
 
